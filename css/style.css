@@ -1,0 +1,47 @@
+/* Make background fullpage */
+.bg {
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+/* Make quote box */
+.quoteBox {
+     background: rgb(228, 228, 228, 0.5);
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     padding: 2rem 1rem;
+}
+
+/* Design span */
+span {
+     display: block;
+     padding-top: 1rem;
+}
+
+/* Design Links */
+.credit {
+     padding-top: 2rem;
+}
+.credit a {
+     padding-right: 10px;
+     text-decoration: none;
+     color: rgb(85, 85, 85);
+}
+.credit a:hover {
+     color: rgb(45, 45, 126);
+}
+
+/* Media query */
+@media screen and (max-width: 576px) {
+     #quote {
+          font-size: 1rem !important;
+     }
+     #author {
+          font-size: .9rem !important;
+     }
+     .credit {
+          font-size: .7rem !important;
+     }
+}
