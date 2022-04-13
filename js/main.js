@@ -6,7 +6,7 @@ fetch(`https://pixabay.com/api/?key=${config.apiKey}&q=nature&image_type=backgro
     .then(res => res.json())
     .then(data => {
         let imgURL = data.hits[Math.ceil(Math.random() * 200)].largeImageURL
-        document.querySelector('.bg').style.background = `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${imgURL}) no-repeat center center`
+        document.querySelector('.bg').style.background = `linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(${imgURL}) no-repeat center center`
         document.querySelector('.bg').style.backgroundSize = `cover`
     })
     .catch(err => `Error: ${err}`)
