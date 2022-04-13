@@ -2,7 +2,7 @@
 "use strict";
 
 // Load background
-fetch('https://pixabay.com/api/?key=26730821-b16b9a863dcaf46bb73ee82b9&q=nature&image_type=background&safesearch=true&per_page=200')
+fetch(`https://pixabay.com/api/?key=${config.apiKey}&q=nature&image_type=background&safesearch=true&per_page=200`)
     .then(res => res.json())
     .then(data => {
         let imgURL = data.hits[Math.ceil(Math.random() * 200)].largeImageURL
@@ -15,7 +15,7 @@ fetch('https://pixabay.com/api/?key=26730821-b16b9a863dcaf46bb73ee82b9&q=nature&
 fetch('https://api.goprogram.ai/inspiration')
     .then(res => res.json())
     .then(data => {
-        document.querySelector('h1').innerHTML = data.quote;
-        document.querySelector('span').innerHTML = data.author;
+        document.querySelector('h1').innerHTML = data.quote
+        document.querySelector('span').innerHTML = data.author
     })
     .catch(err => `Error: ${err}`)
