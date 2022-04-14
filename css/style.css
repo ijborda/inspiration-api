@@ -33,6 +33,11 @@ span {
      color: rgb(45, 45, 126);
 }
 
+/* Highlight effect */
+html ::selection {
+     background: rgb(182, 182, 182);
+}
+
 /* Media query */
 @media screen and (max-width: 576px) {
      #quote {
