@@ -1,10 +1,10 @@
 # Daily Inspiration 
 
-Use [Daily Inspiration](https://imarijoyborda.com/inspiration-api/) to view random inspiring quote/message every hour. Each quote are also accompanied by a beatiful background. Use this to start your day inspired!
+Use [Daily Inspiration](https://imarijoyborda.com/daily-inspiration/) to view random inspiring quote/message every hour. Each quote are also accompanied by a beatiful background. Use this to start your day inspired!
 
 My motivation: Before starting work in the morning, I like to read inspiring quotes to get me hype up for the day. I find that doing so help me become more productive for the day. However, there is no minimalist and beautiful site that shows quotes on daily basis. Most sites look dull, uninspiring, and has uncessary other details. I develop this site to generate inspiring quotes beautifully and dynamically.  
 
-Link to project: [https://imarijoyborda.com/inspiration-api/](https://imarijoyborda.com/inspiration-api/). 
+Link to project: [https://imarijoyborda.com/daily-inspiration/](https://imarijoyborda.com/daily-inspiration/). 
 
 ![Screenshot of Site - 1](assets/readme/readme-1.png)
 
