@@ -1,4 +1,4 @@
-# Daily Inspiration 
+# Daily Inspiration  | Start your Day Inspired
 
 Use [Daily Inspiration](https://imarijoyborda.com/daily-inspiration/) to view random inspiring quote/message every hour. Each quote are also accompanied by a beatiful background. Use this to start your day inspired!
 
@@ -23,3 +23,8 @@ There are still lots that need to be improved in this web application. Some plan
 Contributions are also very welcome! Just issue a pull request.
 
 ## Thanks for checking it out!
+
+Check out my other projects:
+* [Readability | Readability Test for Researchers](https://github.com/ijborda/readability)
+* [Survie | Survey More Efficiently](https://github.com/ijborda/astrie)
+* [Cookie | Look for Recipes](https://github.com/ijborda/cookie)
