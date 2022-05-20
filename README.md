@@ -12,7 +12,7 @@ Link to project: [https://imarijoyborda.com/daily-inspiration/](https://imarijoy
 Simply visit the site to see the quote of the hour. The author/source of the quote is also shown. Quotes regenerate per day. The background changes every refresh. 
 
 ## How It's Made
-This uses [Inspiration API](https://api.goprogram.ai/inspiration/docs/) and [Pixabay API](https://pixabay.com/api/docs/). Tech used: HTML, CSS, Bootstrap, and JavaScript.
+This uses [Inspiration API](https://api.goprogram.ai/inspiration/docs/) and [Pixabay API](https://pixabay.com/api/docs/). Tech used: HTML, CSS, Bootstrap, and JavaScript. <a href="https://www.flaticon.com/free-icons/inspiration" title="inspiration icons">Inspiration icons created by Aficons studio - Flaticon</a>
 
 ## Future Improvements
 There are still lots that need to be improved in this web application. Some plans are:
